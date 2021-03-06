@@ -20,6 +20,8 @@ export class PatientsDataComponent implements OnInit {
 
   ngOnInit(): void {
 
+    
+
     this.authService.isLoading.subscribe(isLoad=>{
       this.isLoading = isLoad
     })

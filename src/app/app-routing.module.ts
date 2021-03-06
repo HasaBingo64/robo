@@ -8,12 +8,13 @@ import { PatientsComponent } from './patients/patients.component';
 import { ServiceComponent } from './service/service.component';
 
 const routes: Routes = [
+  {path:'', component:HomeComponent},
   {path:'signup', component:AuthComponent},
   {path:'reg-patients', component:PatientsDataComponent},
   {path:'patients', component:PatientsComponent},
   {path:'login', component:LoginComponent},
-  {path:'service', component:ServiceComponent},
-  {path:'', component:HomeComponent}
+  {path:'service', component:ServiceComponent}
+  
 ];
 
 @NgModule({
